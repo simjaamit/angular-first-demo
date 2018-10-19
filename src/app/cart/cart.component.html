@@ -1,0 +1,19 @@
+
+
+<div class="two">
+  <p>
+<b class ="three">CART</b>
+</p>
+  <table [ngClass]="'table table-bordered'">
+      <tr>
+          <th>Name</th>
+          <th>Price</th>
+      </tr>
+      <tr *ngFor="let y of cartItem">
+          <td>{{y.name}}</td>
+          <td>{{y.price | currency : 'INR' }}</td>
+      </tr>
+  </table>
+</div>
+
+

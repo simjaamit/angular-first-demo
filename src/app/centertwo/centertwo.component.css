@@ -1,0 +1,17 @@
+
+
+#two
+{
+  height:200px;
+  width:450px;
+  border:2px solid red;
+  border-radius:50px;
+  position:relative;
+  background-color:lightgrey;
+  top:100px;
+  left:80px;
+}
+
+p{
+  text-align:center;
+}
